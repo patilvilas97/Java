@@ -1,4 +1,4 @@
-class calculator{
+class Calculator{
 	int num1;
 	int num2;
 	int result;
@@ -8,10 +8,10 @@ class calculator{
 }
 class Demo{
 	public static void main(String[] args){
-		calculator obj= new calculator();
-		calculator.obj.num1=10;
-		calculator.obj.num2=20;
-		operation();
-		System.out.print( result );
+		Calculator obj = new Calculator();
+		obj.num1=3;
+		obj.num2=5;
+		obj.operation();
+		System.out.print( obj.result );
 	}
 }
