@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class SumOfArray {
-    public static void main(String[] args) {
+    public int add(){
         int size;
         int sum=0;
         Scanner in=new Scanner(System.in);
@@ -12,6 +12,10 @@ public class SumOfArray {
             numbers[i]=in.nextInt();
             sum+=numbers[i];
         }
-        System.out.print("The Sum of All Elements of Array is : " + sum);
+        return sum;
+    }
+    public static void main(String[] args) {
+        SumOfArray obj = new SumOfArray();
+        System.out.print("The Sum of All Elements of Array is : " + obj.add());
     }
 }
