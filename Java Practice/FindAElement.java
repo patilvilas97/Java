@@ -16,11 +16,8 @@ public class FindAElement {
         num=in.nextInt();
         for(int k : array){
            if(k==num){
-               ctr++;
+               System.out.print("The element " + num + " is Present");
            }
-        }
-        if(ctr==1){
-            System.out.print
         }
     }
 }
