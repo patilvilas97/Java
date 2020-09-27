@@ -1,3 +1,4 @@
+// Hangman Code.
 import java.util.Scanner;
 import java.util.*;
 public class Hangman {
