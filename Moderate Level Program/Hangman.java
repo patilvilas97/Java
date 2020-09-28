@@ -16,27 +16,33 @@ public class Hangman {
         }
         System.out.println("Welcome to the Game");
         do{
-            System.out.print("Word : ");
+            System.out.print("Predicted Word : ");
             for(int i=0; i<str.length(); i++){
                 System.out.print(letters[i]);
+            
+            }
+            System.out.println();
+            System.out.print("User Guesses : ");
+            for(int i=0; i<str.length(); i++){
+                System.out.print(guesses[i] + " ");
             }
             System.out.println();
             System.out.print("Enter a Letter : ");
             guess= in.next().charAt(0);
+            guesses[ctr]=guess;
+            ctr++;
             for(int i=0; i<str.length(); i++){
                 if(guess==word[i]){
                     letters[i]= guess;
                 }
             }
-            for (int k=0; k<str.length(); k++) {
-                System.out.print(letters[k] + " ");
-            }
             for(int i=0; i<str.length(); i++){
-                if(word[i]==letters[i]);
-                ctr++;
-            }
-            if(ctr==9){
-                System.out.println("Congratulation You are a Winner !!");
+                for(int k=0; k<100; k++){
+                    if(word[i]==guesses[k]){
+                        System.out.println("Congratulation You are a Winner!!");
+                        chances=1;
+                    }
+                }
             }
             // tried to print that u are a winner but not completed
             System.out.println();
