@@ -36,15 +36,8 @@ public class Hangman {
                     letters[i]= guess;
                 }
             }
-            for(int i=0; i<str.length(); i++){
-                for(int k=0; k<100; k++){
-                    if(word[i]==guesses[k]){
-                        System.out.println("Congratulation You are a Winner!!");
-                        chances=1;
-                    }
-                }
-            }
             // tried to print that u are a winner but not completed
+            // Not Ready yet
             System.out.println();
             chances--;
         }while(chances!=0);
