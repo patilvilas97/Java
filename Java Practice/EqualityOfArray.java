@@ -1,19 +1,19 @@
 import java.util.Scanner;
-Class EqualityOfArray{
-    public static void main(){
-        Scanner in = new Scanner(System.in);
-        int array1 [] = new int [5];
-        int array2 [] = new int [5];
+class EqualityOfArray{
+    public static void main(String[] args){
+        int ctr=0;
+        int array1 []= {5, 4, 3, 2, 1};
+        int array2 []={5, 4, 3, 2, 1};
         for(int i=0; i<5; i++){
-            array1[i] = in.nextInt();
-        }
-        for(int i=0; i<5; i++){
-            array2[i] = in.nextInt();
-        }
-        for(int i=0; i<5; i++){
-            for(int j=0; j<5; j++){
-                if()
+            if(array1[i]==array2[i]){
+                ctr++;
             }
+        }
+        if(ctr==5){
+            System.out.print("The Two Arrays are Equal");
+        }
+        else{
+            System.out.print("The Two Arrays are Not Equal");
         }
     }
 }
