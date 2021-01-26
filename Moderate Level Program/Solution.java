@@ -6,14 +6,14 @@ class Solution{
         while(testcases>0){
             int max = 0;
             int price = 0;
-            int A[] = new int [3];
+            int A[] = new int [4];
             for(int i=0; i<A.length; i++){
+                System.out.print("Please Enter the Amount of Chocklates : ");
                 A[i] = in.nextInt();
                 if(A[i]>max){
                     max=A[i];
                 }
             }
-            System.out.println(max);
             for(int j=0; j<A.length; j++){
                 if(max==A[j]){
                     continue;
@@ -22,7 +22,7 @@ class Solution{
                     price+=A[j];
                 }
             }
-            System.out.println(price);    
+            System.out.println("The Minimum Amount Payable is : " + price);    
             testcases--;
         }
     }
