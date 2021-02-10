@@ -1,0 +1,243 @@
+[33mcommit 6c53a36ce2dd681addde881403434736424c2b8e[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Vilas Patil <70201080+patildipak422@users.noreply.github.com>
+Date:   Fri Oct 30 15:44:25 2020 +0530
+
+    Constructor Overloading
+    
+    Write a program to print the names of students by creating a Student class. If no name is passed while creating an object of Student class, then the name should be "Unknown", otherwise the name should be equal to the String value passed while creating object of Student class.
+
+[33mcommit f9f5921e46508c4fa43e380db8e9e5d58983989a[m
+Author: Vilas Patil <70201080+patildipak422@users.noreply.github.com>
+Date:   Fri Oct 30 15:29:00 2020 +0530
+
+    Demo of Constructors
+
+[33mcommit 870a695f47fc2622e222a48bedd6f6f1ce496344[m
+Author: Vilas Patil <70201080+patildipak422@users.noreply.github.com>
+Date:   Fri Oct 30 14:54:08 2020 +0530
+
+    demo of object
+
+[33mcommit a45440c661d6da51306307791a48e91c6b156faf[m
+Author: Vilas Patil <70201080+patildipak422@users.noreply.github.com>
+Date:   Tue Oct 27 10:20:07 2020 +0530
+
+    Finding Duplicate elements
+
+[33mcommit eb04363cb1e5bb7c4a30452bf8d9b684d11a8422[m
+Author: Vilas Patil <70201080+patildipak422@users.noreply.github.com>
+Date:   Thu Oct 15 13:22:40 2020 +0530
+
+    Reversing a array
+
+[33mcommit 938955033e84bc39496d31cb5e0b51c8e26d607b[m
+Author: Vilas Patil <70201080+patildipak422@users.noreply.github.com>
+Date:   Tue Oct 6 11:57:34 2020 +0530
+
+    Final commit
+
+[33mcommit 910e3c8de79818c9ea3eec2c953283a0ceed8750[m
+Author: Vilas Patil <70201080+patildipak422@users.noreply.github.com>
+Date:   Sat Oct 3 22:17:33 2020 +0530
+
+    Initial Commit
+
+[33mcommit ccaa31028348b562d108e8cff1d4b974c4b41db9[m
+Author: Vilas Patil <patildipak422@gmail.com>
+Date:   Fri Oct 2 22:38:52 2020 +0530
+
+    Initial Commit
+
+[33mcommit 0a9eef34926818ae93b11c84adaa8798966718d6[m
+Author: Vilas Patil <patildipak422@gmail.com>
+Date:   Thu Oct 1 10:02:37 2020 +0530
+
+    Finnding Maximum Element
+
+[33mcommit d4228d079ce115b9575923585edddec892aae886[m
+Author: Vilas Patil <patildipak422@gmail.com>
+Date:   Wed Sep 30 22:55:10 2020 +0530
+
+    Initial Commit
+
+[33mcommit 7cb9b90c71fd274c9640f08fafbdf15812f0c10d[m
+Author: Vilas Patil <patildipak422@gmail.com>
+Date:   Wed Sep 30 22:38:05 2020 +0530
+
+    Incomplete yet
+
+[33mcommit 5095496b52f7167603c0b0563e3b363beec74453[m
+Author: Vilas Patil <patildipak422@gmail.com>
+Date:   Tue Sep 29 01:22:10 2020 +0530
+
+    Tried to add winner and loser and decreament chances
+
+[33mcommit 05b446cba37a4a462ba367a049eb9047a58fca68[m
+Author: Vilas Patil <patildipak422@gmail.com>
+Date:   Mon Sep 28 16:07:17 2020 +0530
+
+    Added Comments and Taking input from user
+
+[33mcommit 304983e42ed7c72cb7e11ba8bde76feeeac296cf[m
+Author: Vilas Patil <patildipak422@gmail.com>
+Date:   Sun Sep 27 13:25:48 2020 +0530
+
+    Added Comment
+
+[33mcommit 0b162331306da5e8ce1ad28651baa14b6f728a65[m
+Author: Vilas Patil <70201080+patildipak422@users.noreply.github.com>
+Date:   Sat Sep 26 13:16:02 2020 -0700
+
+    Initial Commit
+
+[33mcommit 18be94898c81f9a3ff52ed56155a652aa274dc9b[m
+Author: Vilas Patil <70201080+patildipak422@users.noreply.github.com>
+Date:   Sun Sep 27 01:45:27 2020 +0530
+
+    Create id.txt
+
+[33mcommit 94df92baf260e681256acbb669b036c0e6e026b2[m
+Author: Vilas Patil <70201080+patildipak422@users.noreply.github.com>
+Date:   Sun Sep 27 01:45:03 2020 +0530
+
+    Delete Moderate Level Program
+
+[33mcommit a1c69dba8ffb2e2c6403e03fe89256915c445293[m
+Author: Vilas Patil <70201080+patildipak422@users.noreply.github.com>
+Date:   Sun Sep 27 01:43:14 2020 +0530
+
+    Create Moderate Level Program
+
+[33mcommit 680397dc5e11c897acade72c58584642c1a74d4b[m
+Author: Vilas Patil <70201080+patildipak422@users.noreply.github.com>
+Date:   Sat Sep 26 01:01:07 2020 +0530
+
+    Delete README.md
+
+[33mcommit 306767b948ddeb94b44d941c2299893e20ada769[m
+Author: Vilas Patil <70201080+patildipak422@users.noreply.github.com>
+Date:   Fri Sep 25 12:30:52 2020 -0700
+
+    Deleting an Array Element
+
+[33mcommit a4b918fefffb06abc4159f9107aa943358f2b308[m
+Author: Vilas Patil <70201080+patildipak422@users.noreply.github.com>
+Date:   Sat Sep 26 00:35:07 2020 +0530
+
+    updated method call and included objects
+
+[33mcommit 11c44a2aeea10729f9cc9cb5c6b83a96a98d8fbe[m
+Author: Vilas Patil <70201080+patildipak422@users.noreply.github.com>
+Date:   Fri Sep 25 11:27:40 2020 -0700
+
+    pattern
+
+[33mcommit 0ca761d8285a8ee6185d0679adc3752b618d405d[m
+Author: Vilas Patil <70201080+patildipak422@users.noreply.github.com>
+Date:   Thu Sep 24 09:38:34 2020 -0700
+
+    Finding a element in a array
+
+[33mcommit 29fad906e8d5faba62a3a36689cc68efed3a4d65[m
+Author: Vilas Patil <70201080+patildipak422@users.noreply.github.com>
+Date:   Thu Sep 24 00:48:57 2020 -0700
+
+    initial Commit
+
+[33mcommit 121bb646fd9a1e8193ea4ae129c84954e3f50c2f[m
+Author: Vilas Patil <70201080+patildipak422@users.noreply.github.com>
+Date:   Wed Sep 23 15:29:33 2020 +0530
+
+    Finding Maximum and Minimum elements using method call
+
+[33mcommit ff084acb46d96f08626b4172304a27e589f2926c[m
+Author: Vilas Patil <70201080+patildipak422@users.noreply.github.com>
+Date:   Wed Sep 23 02:30:34 2020 -0700
+
+    Finding Maximum element
+
+[33mcommit 302ebd2aefd756da815acc6cb01d61fd53dd6aa5[m
+Author: Vilas Patil <70201080+patildipak422@users.noreply.github.com>
+Date:   Tue Sep 22 11:04:28 2020 -0700
+
+    Calculating Aveage of Array Elements
+
+[33mcommit d06b14efc7af985a604b6f8774bbd4a1b2f2e76e[m
+Author: Vilas Patil <70201080+patildipak422@users.noreply.github.com>
+Date:   Tue Sep 22 23:33:50 2020 +0530
+
+    Delete AverageOfArray.java
+
+[33mcommit eb113e7b5c88b013d7704912c1fcf846a1ec4d4f[m
+Author: Vilas Patil <70201080+patildipak422@users.noreply.github.com>
+Date:   Tue Sep 22 11:03:02 2020 -0700
+
+    Calculating Average of Array Elements
+
+[33mcommit 2fb553c69d6f0edec65eb15827d6124dedaf67a2[m
+Author: Vilas Patil <70201080+patildipak422@users.noreply.github.com>
+Date:   Tue Sep 22 11:02:29 2020 -0700
+
+    Calculating Average of all the elements in Array
+
+[33mcommit 20eed992a793bc14218d8d9d13a80018314f378e[m
+Author: Vilas Patil <70201080+patildipak422@users.noreply.github.com>
+Date:   Sun Sep 20 12:15:36 2020 -0700
+
+    Initial Commit
+
+[33mcommit 99fae6c06f9b0a9dda3f8b25e6ec7e43a7b9920c[m
+Author: Vilas Patil <70201080+patildipak422@users.noreply.github.com>
+Date:   Sun Sep 20 17:23:26 2020 +0530
+
+    Updating Function Call in Program
+
+[33mcommit b3552a6368db19105b199373c1f12d7d07924f66[m
+Author: Vilas Patil <70201080+patildipak422@users.noreply.github.com>
+Date:   Sun Sep 20 04:42:19 2020 -0700
+
+    Multiplying all the Elements of Array
+
+[33mcommit 57075e5b9ee5990c06293d353472c8493b2ee25c[m
+Author: Vilas Patil <70201080+patildipak422@users.noreply.github.com>
+Date:   Sun Sep 20 04:37:12 2020 -0700
+
+    Adding all the Array Elements and Displaying Them
+
+[33mcommit 8029034ec4e5f5fb6796d2c92f88cd66715622d9[m
+Author: Vilas Patil <70201080+patildipak422@users.noreply.github.com>
+Date:   Sun Sep 20 02:55:34 2020 -0700
+
+    For Each Loop Implementation
+
+[33mcommit 8731597031bdb73111ac52da535f2c5c067c18fb[m
+Author: Vilas Patil <70201080+patildipak422@users.noreply.github.com>
+Date:   Sat Sep 19 02:48:52 2020 -0700
+
+    Creating Array and Displaying elements in it
+
+[33mcommit a96efeaa5f4086b18073f1601ed6fb219948c144[m
+Author: Vilas Patil <70201080+patildipak422@users.noreply.github.com>
+Date:   Sat Sep 19 02:38:48 2020 -0700
+
+    Swapping Two Numbers
+
+[33mcommit fa6fe8d7ea66384edddc3594ff7ff1f32f0e9fdf[m
+Author: Vilas Patil <70201080+patildipak422@users.noreply.github.com>
+Date:   Fri Sep 18 10:15:06 2020 -0700
+
+    Calculating Area and Perimeter of a Rectangle
+
+[33mcommit 53bf23b68feac9059f952908942795c521c3fb0e[m
+Author: Vilas Patil <70201080+patildipak422@users.noreply.github.com>
+Date:   Fri Sep 18 00:14:36 2020 -0700
+
+    Checking Prime Number
+
+[33mcommit 1d5ab7b51d5dff8a1f6699f815408485763eeea1[m
+Author: Vilas Patil <70201080+patildipak422@users.noreply.github.com>
+Date:   Thu Sep 17 22:53:38 2020 -0700
+
+    Checking Even Odd Number
+
+[33mcommit e345e0e173f8ea3d4

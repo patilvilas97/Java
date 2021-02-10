@@ -1,12 +1,16 @@
 import java.util.Scanner;
 class Solution{
     public static void main(String[] args){
-        int testcases=2;
+        System.out.println("please Enter the Number of Testcases : ");
+        int testcases = in.nextInt();
         Scanner in = new Scanner(System.in);
         while(testcases>0){
             int max = 0;
             int price = 0;
-            int A[] = new int [4];
+            int size;
+            System.out.println("Please Enter the list of Price of chocklates : ");
+            size = in.nextInt();
+            int A[] = new int [size];
             for(int i=0; i<A.length; i++){
                 System.out.print("Please Enter the Amount of Chocklates : ");
                 A[i] = in.nextInt();
