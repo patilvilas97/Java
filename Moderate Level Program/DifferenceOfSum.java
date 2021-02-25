@@ -4,23 +4,24 @@ import java.util.Scanner;
 public class DifferenceOfSum{
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
+        System.out.print("Please Enter the Divident : ");
         int n = in.nextInt();
+        System.out.print("Please Enter the Limit : ");
         int m = in.nextInt();
+        DifferenceOfSum difference = new DifferenceOfSum();
+        difference.divisible_diff(n, m);
+    }
+    public void divisible_diff(int n, int m){
         int divisible_sum = 0;
-        int not_divisible_sum = 0;
-        int array [] = new int [m]; 
-        for(int i=0; i<m; i++){
-            array[i] = i+1;
-        }
-        for(int j=0; j<array.length; j++){
-            if(array[j]%n == 0){
-                divisible_sum +=array[j];
+        int not_divisible_sum = 0; 
+        for(int i=1; i<=m; i++){
+            if(i%n == 0){
+                divisible_sum += i;
             }
             else{
-                not_divisible_sum +=array[j];
+                not_divisible_sum += i;
             }
         }
-        int difference = not_divisible_sum - divisible_sum;
-        System.out.println(difference);
+        System.out.println("The Difference is : " + (not_divisible_sum - divisible_sum));
     }
 }
