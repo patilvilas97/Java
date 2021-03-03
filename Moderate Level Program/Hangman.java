@@ -16,6 +16,8 @@ public class Hangman {
         }
         System.out.println("Welcome to the Game");
         do{
+            boolean chanceCheck=false;
+            System.out.println("Your Chances are " + chances);
             System.out.print("Predicted Word : ");
             for(int i=0; i<str.length(); i++){
                 System.out.print(letters[i]);
@@ -34,12 +36,21 @@ public class Hangman {
             for(int i=0; i<str.length(); i++){
                 if(guess==word[i]){
                     letters[i]= guess;
+                    chanceCheck = true;
                 }
             }
+            // boolean count = (String.valueOf(letters) == str);
+            // if(String.valueOf(letters) == str){
+            //     System.out.println("Hurray! You Won!");
+            //     chances = 0;
+            // }
+            if(chanceCheck == false){
+                chances--;
+            }
+            // System.out.println(count);
             // tried to print that u are a winner but not completed
             // Not Ready yet
             System.out.println();
-            chances--;
         }while(chances!=0);
     }
 }
