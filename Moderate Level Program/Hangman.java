@@ -25,7 +25,7 @@ public class Hangman {
             }
             System.out.println();
             System.out.print("User Guesses : ");
-            for(int i=0; i<str.length(); i++){
+            for(int i=0; i<100; i++){
                 System.out.print(guesses[i] + " ");
             }
             System.out.println();
@@ -39,13 +39,15 @@ public class Hangman {
                     chanceCheck = true;
                 }
             }
+            System.out.println(str);
+            System.out.println(String.valueOf(letters));
             // boolean count = (String.valueOf(letters) == str);
-            // if(String.valueOf(letters) == str){
-            //     System.out.println("Hurray! You Won!");
-            //     chances = 0;
-            // }
             if(chanceCheck == false){
                 chances--;
+            }
+            if(String.valueOf(letters) == str){
+                System.out.println("Hurray! You Won!");
+                chances = 0;
             }
             // System.out.println(count);
             // tried to print that u are a winner but not completed

@@ -7,5 +7,29 @@ public class ReturnSecondLargestElement{
         System.out.print("Please Enter the size of array : ");
         int size = in.nextInt();
         int arr [] = new int [size];
+        for(int i=0; i<arr.length; i++){
+            arr[i] = in.nextInt();
+        }
+        ReturnSecondLargestElement obj = new ReturnSecondLargestElement();
+        obj.bubblesort(arr);
+        int maxi = obj.maximumfromeven(arr);
+    }
+    public void bubblesort(int arr[]){
+        int temp;
+        for(int i=0; i<arr.length - 1; i++){
+            for(int j=0; j<arr.length-i-1; j++){
+                if(arr[j] > arr[j+1]){
+                    temp = arr[j];
+                    arr[j] = arr[j+1];
+                    arr[j+1] = temp;
+                }
+            }
+        }
+    }
+    public int maximumfromeven(int arr){
+        int even_array[] = new int [];
+        for(int i=0; i<arr.length; i++){
+            if(arr)
+        }
     }
 }
