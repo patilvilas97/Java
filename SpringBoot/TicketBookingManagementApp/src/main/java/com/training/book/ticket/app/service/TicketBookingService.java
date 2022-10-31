@@ -23,4 +23,13 @@ public class TicketBookingService {
 		return ticketBookingDao.findById(ticketId);
 	}
 
+	public Iterable<Ticket> getAllBookedTickets() {
+		return ticketBookingDao.findAll();
+	}
+
+	public void deleteTicket(Integer ticketId) {
+		// TODO Auto-generated method stub
+		ticketBookingDao.deleteById(ticketId);
+	}
+
 }

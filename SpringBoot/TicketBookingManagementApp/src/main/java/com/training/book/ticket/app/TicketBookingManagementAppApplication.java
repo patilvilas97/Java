@@ -23,7 +23,15 @@ public class TicketBookingManagementAppApplication {
 		ticket.setPassengerName("Vilas Patil");
 		ticket.setEmail("Patilvilas97@gmail.com");
 		
+		Ticket ticket1 = new Ticket();
+		ticket1.setBookingDate(new Date());
+		ticket1.setDestStation("Mumbai");
+		ticket1.setSourceStation("Nashik");
+		ticket1.setPassengerName("Rujula Mane");
+		ticket1.setEmail("ManeRujula@gmail.com");
+		
 		ticketBookingService.createTicket(ticket);
+		ticketBookingService.createTicket(ticket1);
 	}
 
 }
