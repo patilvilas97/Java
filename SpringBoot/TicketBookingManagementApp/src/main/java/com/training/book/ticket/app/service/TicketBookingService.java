@@ -32,4 +32,13 @@ public class TicketBookingService {
 		ticketBookingDao.deleteById(ticketId);
 	}
 
+	public Ticket updateTicket(Integer ticketId, String newEmail) {
+		Optional<Ticket> ticketFromDBOpt = ticketBookingDao.findById(ticketId);
+		Ticket ticketFromDB = ticketFromDBOpt.get();
+		ticketFromDB.setEmail(newEmail);
+		ticketBookingDao.save(ticketFromDB);
+		Ticket updateTicket = ticketBookingDao.save(ticketFromDB);
+		return updateTicket;
+	}
+
 }
