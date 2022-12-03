@@ -20,5 +20,35 @@ public class UserResource {
 	public List<Users> getAll(){
 		return usersMapper.findAll();
 	}
+	
+	
+	@GetMapping("/adduser")
+	public List<Users> addUser(){
+		Users users = new Users();
+//		users.setId(3);
+		users.setAmount(33270);
+		users.setDescription("A gold ring of 4.6 gm");
+		users.setCreated_at("03122022");
+		
+		usersMapper.insert(users);
+		
+		return usersMapper.findAll(); 
+	}
+	
+	@GetMapping("/update_user")
+	public List<Users> updateuser(){
+		int id = 4;
+		String value = "Pushparaj Gold Ring 5.0gm";
+		usersMapper.updateUserById(id, value);
+		return usersMapper.findAll();
+	}
+	
+	@GetMapping("/delete_user")
+	public List<Users> deleteUser(){
+		int id = 5;
+		usersMapper.deleteUser(id);
+		return usersMapper.findAll();
+	}
+	
 
 }
