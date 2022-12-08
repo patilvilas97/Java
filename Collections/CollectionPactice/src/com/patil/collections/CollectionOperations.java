@@ -10,8 +10,17 @@ public class CollectionOperations {
 		historyMarks.add(98);
 		historyMarks.add(52);
 		historyMarks.add(88);
-		System.out.println("History Marks: "+historyMarks.get(3));
+		System.out.println("History Marks: "+historyMarks);
+		
+		LinkedList list = new LinkedList();
+		list.add("Name: Vilas");
+		list.add("Mobile Number: "+855407442);
+		list.add("Honest: "+true);
+		list.add("Height: "+ 5.12);
+		System.out.println(list);
+		
 		
 	}
+
 
 }
